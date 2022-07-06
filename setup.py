@@ -48,7 +48,7 @@ setup(
     ),
     packages=find_packages(exclude=["tests*"]),
     install_requires=[
-        "Django>=4.0",
+        "Django>=3.2",
         "strawberry-django-jwt>=0.2.0",
         "strawberry-graphql-django>=0.2.5",
         "strawberry-graphql>=0.104.3",
